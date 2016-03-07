@@ -1,0 +1,27 @@
+{
+  "name": "geo-source",
+  "version": "0.0.1",
+  "description": "Represents a source of geographical data",
+  "main": "dist/source.js",
+  "scripts": {
+    "tsc": "tsc",
+    "prepublish": "tsc",
+    "test": "tsc -p test && node test/test.js"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charto/geo-source.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charto/geo-source/issues"
+  },
+  "homepage": "https://github.com/charto/geo-source#readme",
+  "devDependencies": {
+    "typescript": "~1.8.7"
+  },
+  "dependencies": {
+    "geo-types": "0.0.1"
+  }
+}
