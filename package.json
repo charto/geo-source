@@ -1,8 +1,9 @@
 {
   "name": "geo-source",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Represents a source of geographical data",
   "main": "dist/source.js",
+  "typings": "dist/source.d.ts",
   "scripts": {
     "tsc": "tsc",
     "prepublish": "tsc",
